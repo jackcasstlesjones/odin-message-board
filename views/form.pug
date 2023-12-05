@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title My Pug Page
+    link(rel="stylesheet", href="/stylesheets/styles.css")
+
+  body
+
+
+form(method="POST" action="/new" class="form")
+    label(for="author") Your Name
+    input(type="text" name="author" autocomplete="off" placeholder="Beans McGhee...") 
+    label(for="message") Your Message   
+    input(type="text" name="message" autocomplete="off" placeholder="Your message") 
+    button(type="submit") Submit
+    
